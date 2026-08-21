@@ -13,12 +13,12 @@ const resultDiv = document.getElementById("result")
 let result
 
 switch (option) {
-    case 1:
+    case "1":
         const width = prompt("Digite a largura: ")
         const height = prompt("Digite a altura: ")
         result = RectangleService(width, height)
         break;
-    case 2:
+    case "2":
         const radios = prompt("Digite o raio: ")
         result = CircleService(radios)
         break;
