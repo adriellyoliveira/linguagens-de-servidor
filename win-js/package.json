@@ -1,0 +1,21 @@
+{
+  "name": "win",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type":"module",
+  "scripts": {
+    "rect": "node rectangle.service.js",
+    "circle": "node circle.service.js",
+    "dev": "node main.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  },
+  "devDependencies": {
+    "chalk": "^6.0.0"
+  }
+}
